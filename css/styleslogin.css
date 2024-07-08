@@ -1,0 +1,109 @@
+.l-container{
+  max-width: 100%;
+}
+.l-container, section, div, .l-form{
+  max-width: 100%;
+  text-align: center;
+  
+}
+
+.l-background {
+  margin: 2rem;
+  margin-top: 8rem;
+  border-radius: 10px ;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 98%, .7);
+}
+body{
+  background-image: url(../img/background-login.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* opacity: 1; */
+}
+
+.l-name h1{
+  color: #f7961d;
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.l-name h1 svg{
+  margin-left: -1rem;
+  width: 4rem;
+}
+
+.l-signup{
+  padding-top: 1rem;
+
+}
+
+.l-signup input{
+    width: 50%;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+.l-signup input:hover{
+  border-color: #194789;
+}
+
+
+.l-form div:first-of-type{
+  margin-bottom: -2rem;
+}
+
+.l-btn{
+  width: 35%;
+   font-size: 2rem;
+   margin-left: 0.5rem;
+   margin-top: -1rem;
+   padding-bottom: 0.5rem;
+   text-align: center;
+   /* padding: 0.5rem 4rem 0.5rem 4rem; */
+    border-radius: 1rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: #194789;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+    /* color: #f7961d; */
+}
+
+.l-btn a{
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fdce8d;
+}
+.l-reg{
+  margin-top: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 98%, .7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.l-reg a {
+  text-decoration: none;
+  color: #f7961d;
+}
+
+
+  
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (min-width:45rem) {
+    body{
+      min-width: 30rem;
+      max-width: 40rem;
+      margin: auto;
+    }
+  }
